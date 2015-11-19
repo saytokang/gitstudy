@@ -54,6 +54,7 @@ public class HomeController {
     	}
     	
     	System.out.println("긴급 패치 부");
+    	// 여기 적용 되었나요?
         
         // 뷰이름 이름, render hello.jsp page
         return "home";
