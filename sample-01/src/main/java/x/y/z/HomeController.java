@@ -11,6 +11,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * Handles requests for the application home page.
@@ -58,6 +59,12 @@ public class HomeController {
         
         // 뷰이름 이름, render hello.jsp page
         return "home";
+    }
+    
+    @RequestMapping(value="/aa/bb")
+    @ResponseBody
+    public void newOne() {
+    	System.out.println("json data");
     }
 	
 }
