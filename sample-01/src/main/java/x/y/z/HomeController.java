@@ -45,12 +45,19 @@ public class HomeController {
         return "home";
     }
  
- 
+	/**
+	 * working branch 작업...
+	 * @return
+	 * @throws IOException
+	 */
     @RequestMapping(value = "/test.html")
     public String test() throws IOException {
+    	// 여기에 적당한 작업을 해 주세요. 
+    	
     	if (true) {
     		throw new IOException("occured IOException...");
     	}
+    	
         
         // 뷰이름 이름, render hello.jsp page
         return "home";
