@@ -47,19 +47,6 @@ public class HomeController {
     }
  
  
-    @RequestMapping(value = "/test.html")
-    public String test() throws IOException {
-    	// TODO 여기 무한 루푸 돌아요.
-    	if (true) {
-    		throw new IOException("occured IOException...");
-    	}
-    	
-    	System.out.println("긴급 패치 부");
-    	// 여기 적용 되었나요?
-        
-        // 뷰이름 이름, render hello.jsp page
-        return "home";
-    }
     
     @RequestMapping(value="/aa/bb")
     @ResponseBody
