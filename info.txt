@@ -1,3 +1,5 @@
 해당 directory에 대한 설명을 적었음.
 
 edit info file.
+
+앞으로 정보는 여기 작성해 주세요
