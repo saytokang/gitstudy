@@ -6,3 +6,4 @@ edit info file.
 a
 b
 c
+d
